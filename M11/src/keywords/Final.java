@@ -3,6 +3,12 @@ package keywords;
 public class Final {
 
 	public static void main(String[] args) {
+		
+		//Parent p=new Parent();
+		//p.marry();
+		
+		Child c=new Child();
+		c.marry();
 
 	}
 
@@ -15,7 +21,7 @@ class Parent
 	}
 	void marry() 
 	{
-		System.out.println("Late");
+		System.out.println("Lata");
 	}
 }
 
